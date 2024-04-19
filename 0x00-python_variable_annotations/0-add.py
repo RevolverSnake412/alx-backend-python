@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 '''
-type-annotated function that takes
-a float a and b and returns their sum
+task 0
 '''
 
 
-def add(a: float, b: float):
+def add(a: float, b: float) -> float:
     '''
-    returns the sum of taken args
+    type-annotated function that takes
+    a float a and b and returns their sum
     '''
     return a + b
